@@ -1,0 +1,2 @@
+# muestreo
+Muestreo estadístico
