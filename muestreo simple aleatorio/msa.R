@@ -11,7 +11,7 @@ mediap<-mean(mpiloto)
 var(mpiloto)
 de<-sd(mpiloto)
 e = 0.05
-d<-round(mediap*e,2); d    #epsilon
+d<-round(mediap*e,2); d    # epsilon
 nc<-0.95
 ns<-1-nc
 NP<-3000
@@ -24,7 +24,7 @@ tam.muestra=function(alfa,epsilon,s,N=Inf)
   return(ceiling(n))
 }
 
-# Muestreo población infinita
+# Muestreo de población infinita
 
 n=tam.muestra(alfa=ns,epsilon=d,s=de)
 n
